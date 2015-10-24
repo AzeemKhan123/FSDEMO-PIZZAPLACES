@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43B7B3A87FFE76E673ABCDE8 /* libPods-AzeemLocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55609989A5F86B0B752073E7 /* libPods-AzeemLocation.a */; };
+		EF103CB11BDB60FF00C7EABF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF103CB01BDB60FF00C7EABF /* CoreLocation.framework */; };
+		EF103CBC1BDB665300C7EABF /* FSResturantCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF103CBA1BDB665300C7EABF /* FSResturantCell.m */; settings = {ASSET_TAGS = (); }; };
+		EF103CBD1BDB665300C7EABF /* FSResturantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF103CBB1BDB665300C7EABF /* FSResturantCell.xib */; settings = {ASSET_TAGS = (); }; };
+		EF103CC01BDB6E6E00C7EABF /* FSResturantDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF103CBF1BDB6E6E00C7EABF /* FSResturantDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EF103CC21BDB799100C7EABF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF103CC11BDB799100C7EABF /* CoreData.framework */; };
+		EF103CEB1BDB7AC000C7EABF /* AzeemLocation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF103CE91BDB7AC000C7EABF /* AzeemLocation.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		EF103D021BDB7F2300C7EABF /* PizzaPlace+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EF103CFF1BDB7F2300C7EABF /* PizzaPlace+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		EF103D031BDB7F2300C7EABF /* PizzaPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = EF103D011BDB7F2300C7EABF /* PizzaPlace.m */; settings = {ASSET_TAGS = (); }; };
+		EFD720B51BDB5AF7004DD7E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD720B41BDB5AF7004DD7E9 /* main.m */; };
+		EFD720B81BDB5AF7004DD7E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD720B71BDB5AF7004DD7E9 /* AppDelegate.m */; };
+		EFD720BB1BDB5AF7004DD7E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD720BA1BDB5AF7004DD7E9 /* ViewController.m */; };
+		EFD720BE1BDB5AF7004DD7E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD720BC1BDB5AF7004DD7E9 /* Main.storyboard */; };
+		EFD720C01BDB5AF7004DD7E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD720BF1BDB5AF7004DD7E9 /* Assets.xcassets */; };
+		EFD720C31BDB5AF7004DD7E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD720C11BDB5AF7004DD7E9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55609989A5F86B0B752073E7 /* libPods-AzeemLocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AzeemLocation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81E5CEE38328D7B441C6B22 /* Pods-AzeemLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzeemLocation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AzeemLocation/Pods-AzeemLocation.debug.xcconfig"; sourceTree = "<group>"; };
+		EF103CB01BDB60FF00C7EABF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EF103CB91BDB665300C7EABF /* FSResturantCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSResturantCell.h; sourceTree = "<group>"; };
+		EF103CBA1BDB665300C7EABF /* FSResturantCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSResturantCell.m; sourceTree = "<group>"; };
+		EF103CBB1BDB665300C7EABF /* FSResturantCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSResturantCell.xib; sourceTree = "<group>"; };
+		EF103CBE1BDB6E6E00C7EABF /* FSResturantDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSResturantDetailViewController.h; sourceTree = "<group>"; };
+		EF103CBF1BDB6E6E00C7EABF /* FSResturantDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSResturantDetailViewController.m; sourceTree = "<group>"; };
+		EF103CC11BDB799100C7EABF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EF103CEA1BDB7AC000C7EABF /* AzeemLocation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AzeemLocation.xcdatamodel; sourceTree = "<group>"; };
+		EF103CFE1BDB7F2300C7EABF /* PizzaPlace+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PizzaPlace+CoreDataProperties.h"; sourceTree = "<group>"; };
+		EF103CFF1BDB7F2300C7EABF /* PizzaPlace+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PizzaPlace+CoreDataProperties.m"; sourceTree = "<group>"; };
+		EF103D001BDB7F2300C7EABF /* PizzaPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaPlace.h; sourceTree = "<group>"; };
+		EF103D011BDB7F2300C7EABF /* PizzaPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizzaPlace.m; sourceTree = "<group>"; };
+		EFD720B01BDB5AF6004DD7E9 /* AzeemLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzeemLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD720B41BDB5AF7004DD7E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFD720B61BDB5AF7004DD7E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFD720B71BDB5AF7004DD7E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFD720B91BDB5AF7004DD7E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFD720BA1BDB5AF7004DD7E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFD720BD1BDB5AF7004DD7E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFD720BF1BDB5AF7004DD7E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFD720C21BDB5AF7004DD7E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFD720C41BDB5AF7004DD7E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F870D310FB852EFB59960408 /* Pods-AzeemLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzeemLocation.release.xcconfig"; path = "Pods/Target Support Files/Pods-AzeemLocation/Pods-AzeemLocation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFD720AD1BDB5AF6004DD7E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF103CC21BDB799100C7EABF /* CoreData.framework in Frameworks */,
+				EF103CB11BDB60FF00C7EABF /* CoreLocation.framework in Frameworks */,
+				43B7B3A87FFE76E673ABCDE8 /* libPods-AzeemLocation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B87A44BF24B1F55202927B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A81E5CEE38328D7B441C6B22 /* Pods-AzeemLocation.debug.xcconfig */,
+				F870D310FB852EFB59960408 /* Pods-AzeemLocation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8BA90DB5E6765F13350884F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF103CC11BDB799100C7EABF /* CoreData.framework */,
+				EF103CB01BDB60FF00C7EABF /* CoreLocation.framework */,
+				55609989A5F86B0B752073E7 /* libPods-AzeemLocation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFD720A71BDB5AF6004DD7E9 = {
+			isa = PBXGroup;
+			children = (
+				EFD720B21BDB5AF6004DD7E9 /* AzeemLocation */,
+				EFD720B11BDB5AF6004DD7E9 /* Products */,
+				8B87A44BF24B1F55202927B0 /* Pods */,
+				8BA90DB5E6765F13350884F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFD720B11BDB5AF6004DD7E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFD720B01BDB5AF6004DD7E9 /* AzeemLocation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFD720B21BDB5AF6004DD7E9 /* AzeemLocation */ = {
+			isa = PBXGroup;
+			children = (
+				EFD720B61BDB5AF7004DD7E9 /* AppDelegate.h */,
+				EFD720B71BDB5AF7004DD7E9 /* AppDelegate.m */,
+				EFD720B91BDB5AF7004DD7E9 /* ViewController.h */,
+				EFD720BA1BDB5AF7004DD7E9 /* ViewController.m */,
+				EFD720BC1BDB5AF7004DD7E9 /* Main.storyboard */,
+				EFD720BF1BDB5AF7004DD7E9 /* Assets.xcassets */,
+				EFD720C11BDB5AF7004DD7E9 /* LaunchScreen.storyboard */,
+				EFD720C41BDB5AF7004DD7E9 /* Info.plist */,
+				EFD720B31BDB5AF6004DD7E9 /* Supporting Files */,
+				EF103CB91BDB665300C7EABF /* FSResturantCell.h */,
+				EF103CBA1BDB665300C7EABF /* FSResturantCell.m */,
+				EF103CBB1BDB665300C7EABF /* FSResturantCell.xib */,
+				EF103CBE1BDB6E6E00C7EABF /* FSResturantDetailViewController.h */,
+				EF103CBF1BDB6E6E00C7EABF /* FSResturantDetailViewController.m */,
+				EF103CE91BDB7AC000C7EABF /* AzeemLocation.xcdatamodeld */,
+				EF103CFE1BDB7F2300C7EABF /* PizzaPlace+CoreDataProperties.h */,
+				EF103CFF1BDB7F2300C7EABF /* PizzaPlace+CoreDataProperties.m */,
+				EF103D001BDB7F2300C7EABF /* PizzaPlace.h */,
+				EF103D011BDB7F2300C7EABF /* PizzaPlace.m */,
+			);
+			path = AzeemLocation;
+			sourceTree = "<group>";
+		};
+		EFD720B31BDB5AF6004DD7E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFD720B41BDB5AF7004DD7E9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFD720AF1BDB5AF6004DD7E9 /* AzeemLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD720C71BDB5AF7004DD7E9 /* Build configuration list for PBXNativeTarget "AzeemLocation" */;
+			buildPhases = (
+				E920EB07A25D64FB36654761 /* Check Pods Manifest.lock */,
+				EFD720AC1BDB5AF6004DD7E9 /* Sources */,
+				EFD720AD1BDB5AF6004DD7E9 /* Frameworks */,
+				EFD720AE1BDB5AF6004DD7E9 /* Resources */,
+				362A6E987F1A514E4F99B2C8 /* Embed Pods Frameworks */,
+				16D6FC1ACB49E1F84AF5C4BD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AzeemLocation;
+			productName = AzeemLocation;
+			productReference = EFD720B01BDB5AF6004DD7E9 /* AzeemLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFD720A81BDB5AF6004DD7E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Datainvent Systems";
+				TargetAttributes = {
+					EFD720AF1BDB5AF6004DD7E9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = EFD720AB1BDB5AF6004DD7E9 /* Build configuration list for PBXProject "AzeemLocation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFD720A71BDB5AF6004DD7E9;
+			productRefGroup = EFD720B11BDB5AF6004DD7E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFD720AF1BDB5AF6004DD7E9 /* AzeemLocation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFD720AE1BDB5AF6004DD7E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD720C31BDB5AF7004DD7E9 /* LaunchScreen.storyboard in Resources */,
+				EF103CBD1BDB665300C7EABF /* FSResturantCell.xib in Resources */,
+				EFD720C01BDB5AF7004DD7E9 /* Assets.xcassets in Resources */,
+				EFD720BE1BDB5AF7004DD7E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16D6FC1ACB49E1F84AF5C4BD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AzeemLocation/Pods-AzeemLocation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		362A6E987F1A514E4F99B2C8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AzeemLocation/Pods-AzeemLocation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E920EB07A25D64FB36654761 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFD720AC1BDB5AF6004DD7E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD720BB1BDB5AF7004DD7E9 /* ViewController.m in Sources */,
+				EF103CC01BDB6E6E00C7EABF /* FSResturantDetailViewController.m in Sources */,
+				EF103D031BDB7F2300C7EABF /* PizzaPlace.m in Sources */,
+				EF103CBC1BDB665300C7EABF /* FSResturantCell.m in Sources */,
+				EFD720B81BDB5AF7004DD7E9 /* AppDelegate.m in Sources */,
+				EF103D021BDB7F2300C7EABF /* PizzaPlace+CoreDataProperties.m in Sources */,
+				EFD720B51BDB5AF7004DD7E9 /* main.m in Sources */,
+				EF103CEB1BDB7AC000C7EABF /* AzeemLocation.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFD720BC1BDB5AF7004DD7E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD720BD1BDB5AF7004DD7E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFD720C11BDB5AF7004DD7E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD720C21BDB5AF7004DD7E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFD720C51BDB5AF7004DD7E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFD720C61BDB5AF7004DD7E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFD720C81BDB5AF7004DD7E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A81E5CEE38328D7B441C6B22 /* Pods-AzeemLocation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AzeemLocation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = datainvent.AzeemLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFD720C91BDB5AF7004DD7E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F870D310FB852EFB59960408 /* Pods-AzeemLocation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AzeemLocation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = datainvent.AzeemLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFD720AB1BDB5AF6004DD7E9 /* Build configuration list for PBXProject "AzeemLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD720C51BDB5AF7004DD7E9 /* Debug */,
+				EFD720C61BDB5AF7004DD7E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD720C71BDB5AF7004DD7E9 /* Build configuration list for PBXNativeTarget "AzeemLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD720C81BDB5AF7004DD7E9 /* Debug */,
+				EFD720C91BDB5AF7004DD7E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF103CE91BDB7AC000C7EABF /* AzeemLocation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF103CEA1BDB7AC000C7EABF /* AzeemLocation.xcdatamodel */,
+			);
+			currentVersion = EF103CEA1BDB7AC000C7EABF /* AzeemLocation.xcdatamodel */;
+			path = AzeemLocation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EFD720A81BDB5AF6004DD7E9 /* Project object */;
+}

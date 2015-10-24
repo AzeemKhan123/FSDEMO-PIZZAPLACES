@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FourSquareKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MKNetworkKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AzeemLocation.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Reachability.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2DFFDE1CCA5399B7C4BB2EBC7F150C7B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>53477383E3AD6B24476B040E80AF383B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A21DFE2DFC53CEEEB844EC5BC9C34769</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E7BF0F681C671B7780A76E69BEA63022</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
